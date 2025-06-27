@@ -93,18 +93,11 @@ It consists of two main smart contracts:
 
 - **MyToken.sol**:  
   Address: `0x...`  
-  [Etherscan link](https://sepolia.etherscan.io/address/0x...)
+  Etherscan link https://sepolia.etherscan.io/address/0x0FCebfeB4cbFaD5b7e3C526eca48937C52e5aacf#code
 
 - **UBaEducationCredentialsStore.sol**:  
   Address: `0x...`  
-  [Etherscan link](https://sepolia.etherscan.io/address/0x...)
-
----
-
-## Token Transfer
-
-- 10 units of MyToken were transferred to: `0x0874207411f712D90edd8ded353fdc6f9a417903`
-- Transaction hash: `0x...` (add your hash here)
+  Etherscan link https://sepolia.etherscan.io/address/0xa42e334d6fB51FCa403584c14E833eeB15b3D2F5#code
 
 ---
 
@@ -156,22 +149,9 @@ npx hardhat run scripts/deployCredentialsStore.ts --network sepolia
 - ESLint
 - GitLens
 
----
-
-## Video Demonstration
-
-A video demonstrating contract deployment, token transfers, multi-signature minting, Etherscan verification, unit tests, and credential verification is available at:  
-[YouTube/Google Drive Link Here]
-
----
-
 ## Authors
 
-- Group Name/Number: [Your Group]
-- Members: [List all group members]
-- Lecturer: Dr. Konan Tchinda R.
-
----
+- Group 13 Token:G13TK
 
 ## License
 

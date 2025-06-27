@@ -79,7 +79,7 @@ export interface UBaEducationCredentialsStoreInterface extends Interface {
   ): string;
   encodeFunctionData(
     functionFragment: "withdrawFunds",
-    values: [BigNumberish, AddressLike]
+    values: [AddressLike, BigNumberish]
   ): string;
 
   decodeFunctionResult(
@@ -270,7 +270,7 @@ export interface UBaEducationCredentialsStore extends BaseContract {
   >;
 
   withdrawFunds: TypedContractMethod<
-    [_amount: BigNumberish, _to: AddressLike],
+    [to: AddressLike, amount: BigNumberish],
     [void],
     "nonpayable"
   >;
@@ -313,7 +313,7 @@ export interface UBaEducationCredentialsStore extends BaseContract {
   getFunction(
     nameOrSignature: "withdrawFunds"
   ): TypedContractMethod<
-    [_amount: BigNumberish, _to: AddressLike],
+    [to: AddressLike, amount: BigNumberish],
     [void],
     "nonpayable"
   >;

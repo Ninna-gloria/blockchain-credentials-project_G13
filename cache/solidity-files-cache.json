@@ -378,8 +378,8 @@
       ]
     },
     "C:\\Users\\brons\\Documents\\blockchain-project\\contracts\\UBaEducationCredentialsStore.sol": {
-      "lastModificationDate": 1750566250090,
-      "contentHash": "b8dc2709f5e61543f7d1022736581b90",
+      "lastModificationDate": 1750851903991,
+      "contentHash": "7cf607e9cf10e673e1a4a24c114d3108",
       "sourceName": "contracts/UBaEducationCredentialsStore.sol",
       "solcConfig": {
         "version": "0.8.30",
@@ -410,7 +410,7 @@
         "@openzeppelin/contracts/token/ERC20/IERC20.sol"
       ],
       "versionPragmas": [
-        "^0.8.24"
+        "^0.8.0"
       ],
       "artifacts": [
         "UBaEducationCredentialsStore"
